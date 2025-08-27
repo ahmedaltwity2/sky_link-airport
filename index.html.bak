@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skylink Airport</title>
+    <meta name="description" content="Skylink is the most comfortable and the safest airport in the world" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="website icon" href="photos/plane.jpg">
+
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section --></head>
+<body>
+   
+    <nav>
+        <ul class="ul_nav">
+            <li class="li_nav"><a class="a_nav" href="#main">Main</a></li>
+            <li class="li_nav"><a class="a_nav" href="#booking">Booking</a></li>
+            <li class="li_nav"><a class="a_nav" href="#flight-status">Flight Status</a></li>
+            <li class="li_nav"><a class="a_nav" href="#destination">Destination</a></li>
+            <li class="li_nav"><a class="a_nav" href="#offers">Offers</a></li>
+            <li class="li_nav"><a class="a_nav" href="#contact-us">Contact Us</a></li>
+            <li class="li_nav"><a class="a_nav" href="#about">About</a></li>
+        </ul>
+    </nav>
+
+   
+    <header>
+        <h1>Skylink Airport</h1>
+        <p>We are here for your worldwide comfort and safety</p>
+    </header>
+
+
+    <section class="section1" id="main">
+        <h1>Go Ahead And Achieve Your Dreams</h1>
+        <button type="button">Click to feel the real comfort</button>
+    </section>
+
+
+	</body>
+</html>

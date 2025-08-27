@@ -1,0 +1,90 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-image: url("../photos/clouds.jpg"); 
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: #000;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(5px);
+        }
+        .ul_nav {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px;
+        }
+        .li_nav {
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.3);
+            margin: 5px;
+            transition: 0.3s ease;
+        }
+        .li_nav:hover {
+            transform: scale(1.1);
+            background: #ccc;
+        }
+        .a_nav {
+            display: block;
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+        header {
+            text-align: center;
+            margin: 120px auto 50px auto;
+            padding: 20px;
+            max-width: 800px;
+            border-radius: 50px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 5px solid rgba(255,255,255,0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        header p {
+            margin: 10px 0 0;
+        }
+
+        .about-section {
+            max-width: 900px;
+            margin: 50px auto;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.3);
+            border: 5px solid rgba(255,255,255,0.1);
+            border-radius: 50px;
+            text-align: center;
+        }
+
+        .about-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .about-section p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            border-radius: 50px;
+            border: 5px solid rgba(255, 255, 255, 0.1);
+            background-color: rgba(255, 255, 255, 0.3);
+            padding: 20px;
+            margin: 20px;
+        }

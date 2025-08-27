@@ -1,0 +1,153 @@
+
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      /* background-image: url('../photos/plane.jpg') no-repeat center center fixed; */
+      background-size: cover;
+      position: relative;
+      /* background-color: aqua; */
+      background-image: url("../photos/ticket.jpg");
+      background-attachment: fixed;
+    }
+
+
+
+     /* .a_nav {
+            
+        padding: 5px;
+        text-decoration: none;
+        text-align: center;
+    }
+    .ul_nav {
+        color: black;
+        list-style: none;
+        display: flex;
+        text-align: center;
+    }
+    
+    .li_nav {
+        background-color:  rgba(156, 28, 28, 0.3);
+        border-radius: 50px;
+        padding: 5px;
+        margin: 5px;
+        transition: 0.3s;
+    }
+
+    .li_nav:hover{
+        transform: scale(1.1);
+        background: #ccc;
+    }
+    nav{
+        color: black;
+        text-align: center;        
+        margin:auto;
+        background: #a8d9f4;
+        position: sticky;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 15px 20px;
+        z-index: 1000;
+            
+        } */
+
+
+    /* Overlay شفاف فوق الخلفية */
+    /* body::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 50, 0.5); */
+      /* background-image: url("../photos/plane.jpg");
+    } */
+
+    .booking-form {
+      /* position: relative مهم عشان يظهر فوق الـ overlay */
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 4px 12px rgba(0,0,0,0.4);
+      max-width: 400px;
+      margin: 100px auto;
+      text-align: center;
+    }
+
+    .booking-form h2 {
+      margin-bottom: 20px;
+      color: #0077b6;
+    }
+
+    .booking-form input,
+    .booking-form select,
+    .booking-form button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .booking-form input:hover,
+    .booking-form select:hover{
+        transform: scale(1.02);
+        background: #ccc;
+    }
+
+
+    .booking-form button {
+      background: #0077b6;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .booking-form button:hover {
+      background: #023e8a;
+      transform: scale(1.05);
+    }
+
+    .service-options {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+    justify-content: center;
+  }
+
+  .card-option {
+    flex: 1;
+    max-width: 120px;
+    background: #f8f9fa;
+    padding: 15px;
+    border-radius: 12px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+    margin: 8px 70px 8px 8px;
+  }
+
+  .card-option img{
+    width :200px;
+    height: 250px;
+    object-fit: contain;
+    border-radius: 10;
+    /* margin-bottom: 8px; */
+    
+  }
+
+  /* عند التحديد */
+  input[type="radio"]:checked + .card-option {
+    border: 2px solid #0077b6;
+    background: #e0f7fa;
+  }
+
+  .card-option:hover {
+    transform: scale(1.05);
+  }
+
+  input[type="radio"] {
+    display: none; /* نخفي الـ radio */}

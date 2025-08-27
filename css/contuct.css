@@ -1,0 +1,264 @@
+body {
+  margin: 30px;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  background-image: url(../photos/wing-221524_1280.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:left;
+  align-items: center;
+  height: 70vh;
+  perspective: 1700px; 
+}
+
+
+nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: rgba(255, 255, 255, 0.3);
+            backdrop-filter: blur(5px);
+        }
+        .ul_nav {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            margin: 0;
+            padding: 10px;
+        }
+        .li_nav {
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            border-radius: 30px;
+            background-color: rgba(255, 255, 255, 0.3);
+            margin: 5px;
+            transition: 0.3s ease;
+        }
+        .li_nav:hover {
+            transform: scale(1.1);
+            background: #ccc;
+        }
+        .a_nav {
+            display: block;
+            padding: 8px 15px;
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+
+
+.face {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+  border-radius: 15px;
+  backface-visibility: hidden;
+  border: 3px solid rgba(0,255,255,0.6);
+}
+
+/* -------the whatup link---------- */
+.cube-container_whats_up {
+  width: 100px;
+  height: 100px;
+  padding: 70px;
+  margin: 20px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(20deg);
+  transition: transform 1.6s;
+}
+
+.cube-container_whats_up:hover {
+  transform: rotateX(80deg) 
+  /* rotateY(50deg) rotateZ(70deg) scale(1.2); */
+}
+
+.whatsapp {
+  background: #25D366;
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.f2w {
+  background: #E1306C;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.f3w {
+  background: #1877F2;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.f4w{
+  background: #1877F2;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.f5w {
+  background: #FFB703;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.linkerw {
+  background: #8A2BE2;
+  transform: rotateX(-90deg) translateZ(100px);
+}
+/* ------------------------------------------- */
+
+
+/* -------the instegram link---------- */
+.cube-container_instegram {
+  width: 100px;
+  height: 100px;
+  padding: 70px;
+  margin: 20px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(20deg);
+  transition: transform 1.6s;
+}
+
+.cube-container_instegram:hover {
+  transform: rotateX(80deg) 
+  /* rotateY(50deg) rotateZ(70deg) scale(1.2); */
+}
+
+.instegram {
+  background: #d32525;
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.f2i {
+  background: #E1306C;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.f3i {
+  background: #1877F2;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.f4i{
+  background: #1877F2;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.f5i {
+  background: #FFB703;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.linkeri {
+  background: #8A2BE2;
+  transform: rotateX(-90deg) translateZ(100px);
+}
+/* ------------------------------------------- */
+
+/* -------the facebook link---------- */
+.cube-container_facebook {
+  width: 100px;
+  height: 100px;
+  padding: 70px;
+  margin: 20px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(20deg);
+  transition: transform 1.6s;
+}
+
+.cube-container_facebook:hover {
+  transform: rotateX(80deg) 
+  /* rotateY(50deg) rotateZ(70deg) scale(1.2); */
+}
+
+.facebook {
+  background: #2539d3;
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.f2f {
+  background: #E1306C;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.f3f {
+  background: #1877F2;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.f4f{
+  background: #1877F2;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.f5f {
+  background: #FFB703;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.linkerf {
+  background: #8A2BE2;
+  transform: rotateX(-90deg) translateZ(100px);
+}
+/* ------------------------------------------- */
+
+
+/* -------the gmail link---------- */
+.cube-container_gmail{
+  width: 100px;
+  height: 100px;
+  padding: 70px;
+  margin: 20px;
+  position: relative;
+  transform-style: preserve-3d;
+  transform: rotateX(-20deg) rotateY(20deg);
+  transition: transform 1.6s;
+}
+
+.cube-container_gmail:hover {
+  transform: rotateX(80deg) 
+  /* rotateY(50deg) rotateZ(70deg) scale(1.2); */
+}
+
+.gmail {
+  background: #25b6d3;
+  transform: rotateY(0deg) translateZ(100px);
+}
+
+.f2g {
+  background: #E1306C;
+  transform: rotateY(90deg) translateZ(100px);
+}
+
+.f3g {
+  background: #1877F2;
+  transform: rotateY(180deg) translateZ(100px);
+}
+
+.f4g{
+  background: #1877F2;
+  transform: rotateY(-90deg) translateZ(100px);
+}
+
+.f5g {
+  background: #FFB703;
+  transform: rotateX(90deg) translateZ(100px);
+}
+
+.linkerg {
+  background: #8A2BE2;
+  transform: rotateX(-90deg) translateZ(100px);
+}
+/* ------------------------------------------- */
+
+.face i {
+  pointer-events: none;
+  margin-right:8px ;
+}
